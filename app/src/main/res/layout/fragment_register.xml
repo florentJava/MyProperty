@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginHorizontal="30dp"
+    tools:context=".RegisterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+
+        android:src="@drawable/logo"
+
+        />
+
+
+    <EditText
+        android:id="@+id/register_nom"
+
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:hint="@string/input_nom"
+        android:minHeight="48dp"
+        android:gravity="left"
+        />
+
+    <EditText
+        android:id="@+id/register_prenom"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:hint="@string/input_prenom"
+        android:minHeight="48dp"
+        android:gravity="left"
+        />
+
+    <EditText
+        android:id="@+id/register_phone"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:hint="@string/input_tell"
+        android:minHeight="48dp"
+        android:gravity="left"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/register_mail"
+
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:hint="@string/input_mail"
+        android:minHeight="48dp"
+        android:gravity="left"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:id="@+id/register_password"
+
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:hint="@string/input_password"
+        android:minHeight="48dp"
+        android:gravity="left"
+        android:inputType="textPassword"
+        />
+
+    <ProgressBar
+        android:id="@+id/register_progressbar"
+
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+
+        android:id="@+id/register_button"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+        android:text="@string/refisterBtn"/>
+
+
+    <TextView
+        android:id="@+id/link_to_login"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/goLogin"
+        android:paddingEnd="60dp"
+        android:paddingTop="10dp"
+        android:textStyle="italic"
+        />
+
+</LinearLayout>
